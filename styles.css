@@ -43,6 +43,12 @@ body .container {
 .image {
   height: calc(100vh - 600px);
 }
+
+@media screen and (min-width: 1200px) {
+  .image {
+    height: calc(100vh - 500px);
+  }
+}
 /* .images {
   display: flex;
   justify-content: center;
