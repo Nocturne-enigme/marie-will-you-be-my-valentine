@@ -35,7 +35,7 @@ body .container {
 }
 
 .image {
-  height: calc(100vh - 500px);
+  height: calc(100vh - 600px);
 }
 /* .images {
   display: flex;
