@@ -37,7 +37,11 @@ body .container {
 .image {
   height: calc(100vh - 500px);
 }
-
+/* .images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+} */
 .text {
   height: 220px;
 }

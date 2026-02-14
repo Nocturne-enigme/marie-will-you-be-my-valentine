@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="icon" type="image/x-icon" href="/images/image.jpg">
     <title>Valentine's Proposal</title>
 </head>
 
 <body>
     <div class="container">
         <div class="Mainprompt">
-            <img class="image" src="images/cute.gif"></img>
+          <div class="images">
+            <img class="image" src="images/image-personals.webp"></img>
+            <!-- <img class="image" src="images/cute.gif"></img> -->
+             <img class="image" src="images/5003449.webp"></img>
+          </div>
             <div class="text">
               <h1 class="hh" id="name">Привіт, красуня!</h1>
               <p class="pp" id="question">Ти будеш моєю Валентинкою? </p>
@@ -40,7 +45,9 @@
 
     noButton.style.position = "absolute";
 
-    document.getElementsByClassName("image")[0].src = "images/gun.gif";
+    document.getElementsByClassName("image")[0].src = "images/image-personal.webp";
+    document.getElementsByClassName("image")[1].src = "images/gun.gif";
+      
 
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
     const randomY = Math.max(0, Math.floor(Math.random() * maxHeight));
@@ -69,5 +76,4 @@
 }
     </script>
 </body>
-
 </html>
